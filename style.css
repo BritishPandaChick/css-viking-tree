@@ -1,0 +1,131 @@
+.ctree {
+    background-color: ivory;
+    /* border: 1px solid black; */
+    margin: 15px;
+    height: 350px;
+    width: 350px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Trunk */
+.ctree .trunk {
+    border-color: brown transparent;
+    border-style: solid;
+    border-width: 0 10px 200px;
+    bottom: 45px;
+    left: 43%;
+    position: absolute;
+    width: 0;
+}
+
+/* Branches */
+.ctree .branches {
+    border-color: darkgreen transparent;
+    border-style: solid;
+    border-width: 0 100px 120px;
+    height: 0px;
+    left: 17%;
+    position: absolute;
+    width: 0;
+}
+
+.ctree .branches.bottom {
+    bottom: 70px;
+    border-bottom-left-radius: 50% 20px;
+    border-bottom-right-radius: 50% 20px;
+}
+
+.ctree .branches.middle {
+    border-bottom-left-radius: 50% 60px;
+    border-bottom-right-radius: 50% 60px;
+    bottom: 135px;
+}
+
+.ctree .branches.top {
+    border-bottom-left-radius: 50% 100px;
+    border-bottom-right-radius: 50% 100px;
+    bottom: 215px;
+}
+
+/* Bands */
+.ctree .band {
+  z-index: 3;
+  border-bottom: 6px solid silver;
+  background-color: transparent;
+  border-radius: 103px;
+  margin-bottom: -5px;
+  height: 60px;
+  right: -50px;
+  margin-bottom: -5px;
+  position: relative;
+  width: 160px;
+  left: -80px;
+}
+
+.ctree .bottom .band {
+  margin-top: 25px;
+  width: 115px;
+  margin-left: 20px;
+}
+
+.ctree .middle .band {
+  width: 120px;
+  left: -60px;
+  height: 36px;
+  margin-top: 45px;
+}
+
+.ctree .top .band {
+  width: 85px;
+  left: -43px;
+  height: 26px;
+  margin-top: 30px;
+}
+
+/* Star */
+.ctree .star {
+    border-color: gold transparent;
+    border-style: solid;
+    border-width: 0 25px 17px;
+    height: 0px;
+    left: 135px;
+    position: relative;
+    -moz-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+    width: 0px;
+}
+.star:before {
+    border-color: gold transparent;
+    border-style: solid;
+    border-width: 0 5px 15px;
+    content: '';
+    display: block;
+    height: 0;
+    left: -13px;
+    position: absolute;
+    top: -10px;
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+    transform:rotate(-35deg);
+    width: 0;
+}
+.star:after {
+    border-color: gold transparent;
+    border-style: solid;
+    border-width: 0 25px 17px;
+    content: '';
+    display: block;
+    height: 0px;
+    left: -25px;
+    position: absolute;
+    top: 0px;
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -webkit-transform: rotate(-70deg);
+    transform: rotate(-70deg);
+    width: 0px;
+}
