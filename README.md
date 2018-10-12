@@ -1,3 +1,11 @@
-# css-viking-tree
+# CSS Holiday Tree
+Holiday tree. Made with HTML &amp; CSS.
 
-Holiday tree inspired by the CSS Christmas Tree from http://www.cssviking.com/css-christmas-tree
+## Instructions
+Clone or download zip file. Open index.html file in your browser.
+
+## Contributing
+This repository is based on starter code from Codeacademy. Therefore I will not be accepting any pull requests.
+
+## Acknowledgements
+* http://www.cssviking.com/css-christmas-tree
