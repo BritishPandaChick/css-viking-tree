@@ -97,6 +97,7 @@
     transform: rotate(35deg);
     width: 0px;
 }
+
 .star:before {
     border-color: gold transparent;
     border-style: solid;
@@ -113,6 +114,7 @@
     transform:rotate(-35deg);
     width: 0;
 }
+
 .star:after {
     border-color: gold transparent;
     border-style: solid;
