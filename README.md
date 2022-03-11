@@ -1,5 +1,5 @@
 # CSS Holiday Tree
-Holiday tree. Made with HTML &amp; CSS.
+Holiday tree. Made with HTML and CSS.
 
 ## Instructions
 Clone or download zip file. Open index.html file in your browser.
@@ -8,4 +8,4 @@ Clone or download zip file. Open index.html file in your browser.
 This repository is based on starter code from CSS Viking. Therefore I will not be accepting any pull requests.
 
 ## Acknowledgements
-* http://www.cssviking.com/css-christmas-tree
+* [CSS Viking](http://www.cssviking.com/css-christmas-tree}
