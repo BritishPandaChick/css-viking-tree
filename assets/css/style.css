@@ -8,7 +8,7 @@
     display: inline-block;
 }
 
-/* Trunk */
+/*=== Trunk ===*/
 .ctree .trunk {
     border-color: brown transparent;
     border-style: solid;
@@ -19,7 +19,7 @@
     width: 0;
 }
 
-/* Branches */
+/*=== Branches ===*/
 .ctree .branches {
     border-color: darkgreen transparent;
     border-style: solid;
@@ -48,7 +48,7 @@
     bottom: 215px;
 }
 
-/* Bands */
+/*=== Bands ===*/
 .ctree .band {
   z-index: 3;
   border-bottom: 6px solid silver;
@@ -83,7 +83,7 @@
   margin-top: 30px;
 }
 
-/* Star */
+/*=== Star ===*/
 .ctree .star {
     border-color: gold transparent;
     border-style: solid;
